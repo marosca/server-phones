@@ -1,7 +1,7 @@
 {
-  "name": "PhoneRest Api",
+  "name": "serverphones",
   "version": "1.0.0",
-  "description": "NodeJs app to server API Rest",
+  "description": "Server Rest Api",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,5 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marosca/server-phones"
   }
 }
