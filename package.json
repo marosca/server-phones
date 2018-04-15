@@ -1,0 +1,15 @@
+{
+  "name": "PhoneRest Api",
+  "version": "1.0.0",
+  "description": "NodeJs app to server API Rest",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mariola Moreno",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
