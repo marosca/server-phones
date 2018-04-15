@@ -99,7 +99,15 @@ app.delete('/items/:id', function(req, res) {
    var itemId = req.params.id;
    res.send('Delete ' + itemId);
 });
-  
-var server = app.listen(8080, function () {
-    console.log('Server is running..'); 
+
+var port = process.env.PORT || 3000;
+
+var server = app.listen(port, function () {
+
+var host = server.address().address;
+  console.log('Example app listening at http://%s:%s', host, port);
 });
+
+// var server = app.listen(8080, function () {
+//     console.log('Server is running..'); 
+// });
